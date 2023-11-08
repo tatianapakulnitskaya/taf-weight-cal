@@ -1,4 +1,4 @@
-package by.itacademy.tapakulnitskaya;
+package by.itacademy.pakulnitskaya;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -7,10 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import static java.lang.Thread.sleep;
+
 public class WeightCalcTest {
 
     @Test
-    public void testFormWithEmptyValues() {
+    public void testFormWithEmptyValues() throws InterruptedException {
         //Starting a driver session
         WebDriver driver = new ChromeDriver();
         //Navigating to a web page
