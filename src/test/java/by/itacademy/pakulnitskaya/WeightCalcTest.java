@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class WeightCalcTest {
 
     @Test
-    public void testFormWithEmptyValues() throws InterruptedException {
+    public void testFormWithEmptyValues() {
         //Starting a driver session
         WebDriver driver = new ChromeDriver();
         //Navigating to a web page
