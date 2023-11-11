@@ -108,6 +108,7 @@ public class WeightCalcTest {
         String actualResult = testEmptyValueAlertElement.getText();
         String expectedResult = "Не указано имя.";
         Assertions.assertEquals(actualResult, expectedResult);
+        //End the session
         driver.quit();
     }
 }
